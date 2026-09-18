@@ -1,0 +1,69 @@
+# =====================================================================
+# Anything that should NOT be public - personal notes, defense theory,
+# instructor task/assignment text, manuals/textbooks, report drafts -
+# goes in a folder literally named "private" next to the relevant code.
+# Example: First-Semester/Programming/Lab01/private/task.text
+# That convention is enforced here, for every course/semester:
+# =====================================================================
+**/private/
+
+# ===== OS junk =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Editors / IDEs =====
+.idea/
+.vscode/
+*.iml
+.vs/
+.settings/
+.classpath
+.project
+*.swp
+*.swo
+*~
+
+# ===== Java =====
+*.class
+*.jar
+*.war
+target/
+out/
+
+# ===== C / C++ =====
+*.o
+*.obj
+*.exe
+*.out
+a.out
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# ===== Node / JS =====
+node_modules/
+dist/
+npm-debug.log*
+
+# ===== .NET =====
+bin/
+obj/
+
+# ===== Docs / office files (manuals, report drafts - not source code) =====
+# Force-add a specific one if a course genuinely requires publishing it:
+#   git add -f path/to/file.pdf
+*.pdf
+*.docx
+*.pptx
+*.xlsx
+
+# ===== Secrets / local config (just in case a lab ever needs these) =====
+.env
+*.log
