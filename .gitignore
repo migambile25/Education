@@ -1,9 +1,6 @@
 # =====================================================================
-# Anything that should NOT be public - personal notes, defense theory,
-# instructor task/assignment text, manuals/textbooks, report drafts -
-# goes in a folder literally named "private" next to the relevant code.
+# Anything that should NOT be public - personal notes, defense theory, etc
 # Example: First-Semester/Programming/Lab01/private/task.text
-# That convention is enforced here, for every course/semester:
 # =====================================================================
 **/private/
 
@@ -56,14 +53,13 @@ npm-debug.log*
 bin/
 obj/
 
-# ===== Docs / office files (manuals, report drafts - not source code) =====
-# Force-add a specific one if a course genuinely requires publishing it:
+# ===== Docs / office files (manuals, reporrts and anything not source code) =====
 #   git add -f path/to/file.pdf
 *.pdf
 *.docx
 *.pptx
 *.xlsx
 
-# ===== Secrets / local config (just in case a lab ever needs these) =====
+# ===== Secrets / local config =====
 .env
 *.log
